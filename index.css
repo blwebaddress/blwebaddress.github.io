@@ -117,13 +117,13 @@ body {
 
 .detailsheading {
     font-family: proxima_nova_thin, Arial, sans-serif;
-    font-size: 286%;
+    font-size: 278%;
     padding-bottom: 0.7ex;
     text-transform: uppercase;
 }
 
 .detailspara {
-    font-size: 134%;
+    font-size: 130%;
 }
 
 .detailsimg {
@@ -150,7 +150,7 @@ body {
 
 .contactheading {
     text-align: center;
-    font-size: 680%;
+    font-size: 670%;
     text-transform: uppercase;
     font-family: proxima_nova_bold, Arial, sans-serif;
     word-break: break-all;
