@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'proxima_nova_reg';
+    src: url('proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_bold';
+    src: url('proximanova-bold-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_light';
+    src: url('proximanova-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_extrabold';
+    src: url('proximanova-extrabold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_thin';
+    src: url('proximanova-thin-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+body {
+    font-family: proxima_nova_reg, Arial, sans-serif;
+    background-color: white;
+}
+
+/*---------------------- helper classes ----------------------------*/
+
+.extrapadleft {
+    padding-left: 52px;
+}
+
+.extrapadright {
+    padding-right: 52px;
+}
+
+.extratoppad {
+    padding-top: 10ex;
+}
+
+/*-------------------------------------------------------------------*/
+
+.mainrow {
+    color: black;
+    padding-top: 3ex;
+}
+
+.maincol {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mainheading {
+    font-family: proxima_nova_bold, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1327%;
+    display: block;
+    padding-left: 0.1ch;
+    text-align: center;
+    line-height: 1;
+    padding-top: 0.48ex;
+}
+
+
+.submainheading {
+    font-family: proxima_nova_thin, Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    bottom: 1em;
+    font-size: 315%;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+    padding-top: 0.3ex;
+    padding-bottom: 2.5ex;
+}
+
+.carorow {
+    padding-top: 2ex;
+    height: 532px;
+    /* overflow: hidden; */
+}
+
+.carocol {
+    padding-left: 0;
+    padding-right: 0;
+    height: 85%;
+    overflow: hidden;
+}
+
+.carocontrol {
+    height: 50%;
+    background-image: none !important;
+}
+
+.caroicon {
+    color: black;
+    text-shadow: none;
+}
+
+.caroimg {
+    width: 76%;
+    margin: auto;
+}
+
+.detailsheading {
+    font-family: proxima_nova_thin, Arial, sans-serif;
+    font-size: 330%;
+    padding-bottom: 0.7ex;
+    text-transform: uppercase;
+}
+
+.detailspara {
+    font-size: 148%;
+}
+
+.detailsimg {
+    height: 50ex;
+    background-size: cover;
+}
+
+.detimg1 {
+    background-image: url("https://unsplash.it/460/350/");
+}
+
+.detimg2 {
+    background-image: url("https://unsplash.it/460/350/?random");
+}
+
+.detimg3 {
+    background-image: url("https://unsplash.it/460/350/");
+}
+
+.contactrow {
+    /* background-color: whitesmoke; */
+    margin-top: 10ex;
+}
+
+.contactheading {
+    text-align: center;
+    font-size: 7em;
+    text-transform: uppercase;
+    font-family: proxima_nova_bold, Arial, sans-serif;
+    word-break: break-all;
+    line-height: 1;
+    color: black;
+}
+
+.conactformcol {
+    text-align: center;
+}
+
+.contactformdiv {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+

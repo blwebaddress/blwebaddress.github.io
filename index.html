@@ -1,0 +1,215 @@
+<!doctype html>
+<!--
+__        __   _            _     _      _
+\ \      / /__( )_ __ ___  | |__ (_)_ __(_)_ __   __ _
+ \ \ /\ / / _ \/| '__/ _ \ | '_ \| | '__| | '_ \ / _` |
+  \ V  V /  __/ | | |  __/ | | | | | |  | | | | | (_| |
+   \_/\_/ \___| |_|  \___| |_| |_|_|_|  |_|_| |_|\__, |
+                                                 |___/
+ ____                              _             _
+/ ___|  ___  ___    ___ ___  _ __ | |_ __ _  ___| |_
+\___ \ / _ \/ _ \  / __/ _ \| '_ \| __/ _` |/ __| __|
+ ___) |  __/  __/ | (_| (_) | | | | || (_| | (__| |_
+|____/ \___|\___|  \___\___/|_| |_|\__\__,_|\___|\__|
+  __
+ / _| ___  _ __ _ __ ___
+| |_ / _ \| '__| '_ ` _ \
+|  _| (_) | |  | | | | | |
+|_|  \___/|_|  |_| |_| |_|
+
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ben Litwin - Digital design and conversion optimisation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Digital design and conversion optimisation">
+    <meta name="author" content="Ben Litwin">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" defer></script>
+    <script src="./js/jqBootstrapValidation.js" defer></script>
+    <script src="index.js" defer></script>
+
+
+
+    <!--Favicon code-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--/Favicon code-->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <div class="row mainrow">
+        <div class="col-sm-12 maincol">
+            <div class="mainheading">
+                BL.
+            </div>
+            <div class="submainheading">
+                Digital creation and conversion optimisation
+            </div>
+        </div>
+    </div>
+
+    <div class="row carorow">
+        <div class="col-sm-12 carocol">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./images/1.jpg" alt="Portfolio Image One" class="caroimg">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/2.jpg" alt="Portfolio Image Two" class="caroimg">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/3.jpg" alt="Portfolio Image Three" class="caroimg">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/4.jpg" alt="Portfolio Image Four" class="caroimg">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/5.jpg" alt="Portfolio Image Five" class="caroimg">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/6.jpg" alt="Portfolio Image Six" class="caroimg">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/7.jpg" alt="Portfolio Image Seven" class="caroimg">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control carocontrol" href="#carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left caroicon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control carocontrol" href="#carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right caroicon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row detailsrow">
+        <div class="col-sm-5 col-sm-offset-1 extrapadleft">
+            <div class="detailsheading">
+                Full service agency
+            </div>
+            <div class="detailspara">
+                Cover everything in the digital sphere: Consumer research, advertising campaign management (PPC/SEM/CPA optimisation) and expert SEO. Results provided in a sustainable way with full reporting. Get your product or service on iOS, android and/or the web with respect paid to your goals at every stage of the process. And every design created looks as good on the desktop as it does on mobile.
+            </div>
+        </div>
+        <div class="col-sm-5 extrapadright">
+            <div class="detailsimg detimg1 "></div>
+        </div>
+    </div>
+    <div class="row detailsrow extratoppad">
+        <div class="col-sm-5 col-sm-offset-1 extrapadleft top">
+            <div class="detailsimg detimg2 "></div>
+        </div>
+        <div class="col-sm-5 extrapadright">
+            <div class="detailsheading">
+                Conversion optimisation
+            </div>
+            <div class="detailspara">
+                All designs are created with the science of conversion in mind. After this, the design goes through a series of modifications and the one that converts a visitor to a paying customer the best is chosen. Every small detail is considered to make sure your product or service sells. Aesthetic is important but, here, sales are king.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row detailsrow extratoppad">
+        <div class="col-sm-5 col-sm-offset-1 extrapadleft">
+            <div class="detailsheading">
+                Full app development
+            </div>
+            <div class="detailspara">
+                Do you have an involved business process on or offline that you would like to automate through the web? An iOS or browser based idea? Create beautiful yet fully functional apps: software that runs through a browser or mobile phone that can be accessed anywhere in the world.
+            </div>
+        </div>
+        <div class="col-sm-5 extrapadright">
+            <div class="detailsimg detimg3 "></div>
+        </div>
+    </div>
+
+
+    <div class="row contactrow">
+
+        <div class="col-sm-12 contactheading">
+            Contact
+        </div>
+
+        <div class="col-sm-12 conactformcol">
+            <div class="contactformdiv">
+                <form action="//formspree.io/blwebaddress@gmail.com" method="POST">
+                    <input type="text" name="name">
+                    <input type="email" name="_replyto">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+   <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error iure laborum nostrum pariatur, ratione vitae! Explicabo harum id illum incidunt nemo neque non officiis sit soluta suscipit! Aut culpa iste qui? Aliquid quas quisquam quo. Adipisci, at commodi consequuntur distinctio dolorem eligendi eos error eum ex explicabo inventore ipsa ipsam minus molestias nemo nihil nulla obcaecati officiis optio quisquam quo ratione saepe similique tempora, temporibus veritatis voluptates voluptatum. Adipisci at aut commodi debitis dicta ducimus eos excepturi fuga fugit in inventore ipsa iure labore laboriosam libero maxime minus necessitatibus nihil nobis nulla numquam praesentium quaerat quam quia recusandae repellat repellendus sint ut, velit vitae! Alias excepturi iste nisi odio ullam! Ab accusamus alias assumenda commodi consectetur cupiditate deserunt doloribus facilis fugit ipsa itaque iure modi mollitia natus nemo nesciunt, nostrum perspiciatis provident quae, quidem, quisquam ratione sit vel vero voluptate. A ad ex, in modi molestiae molestias numquam possimus sint. Alias aliquid amet asperiores at consequatur corporis esse est eveniet exercitationem, facilis illum impedit ipsam iste laboriosam, molestiae nihil nulla optio pariatur quas ratione reiciendis sed sunt suscipit vero, voluptate? Cum ducimus, natus necessitatibus omnis quasi sit? A aliquam culpa eligendi illo iste repellat repudiandae soluta voluptatem, voluptatibus! Accusamus aperiam ducimus illo nostrum nulla reprehenderit sit voluptas voluptatem. Ab amet cum enim fugiat fugit iure labore libero possimus quae similique. A doloremque eius eveniet fuga hic, iure iusto laudantium minus nam nulla odio optio quas quod saepe sint soluta tempora voluptatibus voluptatum? Animi atque commodi consequatur cupiditate doloribus eius enim eveniet facilis hic impedit ipsam maiores minima molestiae molestias natus nostrum obcaecati odio quam quidem quis repellendus, temporibus tenetur ut voluptates voluptatibus. Ad aspernatur distinctio dolorum enim harum laborum praesentium reprehenderit sapiente sequi veniam! Aperiam debitis dolores eos explicabo illo, incidunt ipsa iure iusto modi, nam nemo neque nostrum nulla officiis pariatur perferendis placeat porro possimus quibusdam, suscipit vitae voluptate voluptatum? Animi consectetur, dolor dolorem dolores dolorum fugiat illo illum quo ratione sit tenetur totam. Adipisci iusto tempore voluptas! Adipisci dolores eum laborum neque nulla rerum temporibus ut vel voluptatem. Blanditiis corporis cupiditate delectus dolore est fugiat iure numquam perspiciatis recusandae sunt. Animi architecto beatae consequatur dolorem dolores error et id laborum maxime minima, molestias nesciunt odit provident quos unde voluptate voluptates! Alias architecto aspernatur, assumenda autem beatae blanditiis commodi culpa cupiditate debitis doloremque exercitationem expedita explicabo facilis fuga fugiat fugit hic impedit incidunt inventore ipsam ipsum iste iusto labore laudantium molestiae molestias, nam neque numquam odit officia quidem quos recusandae reiciendis sequi similique tenetur vero. Consequuntur cumque ex harum illum iure laudantium officiis optio quidem recusandae veniam. Distinctio ipsam magnam pariatur possimus rem. Aperiam cumque dignissimos dolorum eius eos ex facere ipsam maxime. Adipisci alias consequuntur delectus deserunt dicta doloribus earum ex explicabo fuga fugit illo magnam nesciunt, odio officia pariatur porro quis sed voluptatibus. Accusantium assumenda beatae consectetur cum dolorum eum fugit labore laudantium necessitatibus nemo, nulla provident quo repellat rerum, voluptatum! Accusantium, id illo minus quibusdam recusandae sit voluptatem. Deserunt esse impedit, inventore molestias quo repellendus repudiandae sed tenetur voluptatem voluptatibus! Accusantium alias autem doloribus ea esse eveniet, explicabo fugit nisi omnis porro provident saepe tempora ullam! Aperiam consequatur eaque excepturi explicabo in laudantium libero, magni quam voluptas voluptates. Aliquam at dolore earum est eum impedit quia rem? Aperiam ipsum laboriosam libero minima minus nobis quae quos tempora. Cupiditate, dicta eaque error labore molestiae nobis qui vel. Consectetur, illo, odit! Assumenda deserunt dolorem dolores eius impedit quidem quisquam sunt veniam. Distinctio in inventore natus nostrum quas quasi sed vero? Atque commodi cumque cupiditate iusto obcaecati ratione soluta vel vero! Aut deserunt doloremque eos, error exercitationem explicabo fuga laudantium minima, non nostrum officia perferendis quasi quibusdam recusandae ullam vero vitae? Ab aliquam aliquid asperiores autem beatae culpa cupiditate deserunt dolorem eligendi esse incidunt labore, molestiae necessitatibus nemo optio pariatur provident sint totam veniam voluptatem? Commodi eos facilis laborum officia suscipit. Aut dignissimos iste laboriosam minima odit omnis placeat quidem rem unde veniam? Ab ad adipisci amet at beatae commodi cum esse, est et eveniet ipsum iusto necessitatibus nulla quibusdam, quo quos recusandae rerum sint tempore tenetur! At beatae consequatur ea esse est illum minus necessitatibus nulla omnis, possimus! Cumque ea earum error et eum fugiat iure odio! Cumque dicta eius placeat possimus quaerat, quisquam quos sit velit! Ab accusantium animi aperiam doloremque harum ipsa, modi molestiae necessitatibus nobis odit quam quis quod tempora unde vero. Animi, architecto commodi consequuntur dignissimos fuga hic illum iste nam non omnis perferendis quis quod rem repellendus similique tempore temporibus unde voluptatem. At blanditiis commodi consequuntur dignissimos expedita, harum id, ipsam iure laborum minima obcaecati porro praesentium quos ratione sunt tenetur vel velit vero. Aut debitis eveniet harum hic in odio officiis, provident quod. Architecto cum ea eos est ex ipsam, nam nesciunt odit perspiciatis possimus sint sit totam vel! Ad aliquam autem, consequatur deleniti distinctio doloribus eligendi harum illo illum ipsam, laborum maiores, mollitia nemo nostrum obcaecati quas quidem quisquam similique. Aperiam, asperiores debitis ducimus eaque enim necessitatibus odio perspiciatis quae, rem suscipit unde vero voluptas voluptatibus. Deserunt dolorem magnam minima nostrum ratione sunt ut veritatis voluptates! Deleniti eligendi laudantium nesciunt nihil officiis quam velit. Consequatur ducimus eaque fugit ipsum qui quis repellendus? Excepturi, molestias, placeat. A aspernatur consequuntur corporis dignissimos dolore doloremque, doloribus eos est magnam nemo odio praesentium provident quam qui saepe unde ut. Ab aliquam delectus dicta, enim magni nobis? Ad adipisci aliquam aut beatae esse ex fuga id incidunt laudantium minima modi, molestiae mollitia natus necessitatibus nemo nihil praesentium quam ratione recusandae reiciendis reprehenderit, repudiandae sed sunt tempora tempore totam voluptates. A aliquid dolor facere, id impedit ipsa laudantium maiores mollitia nostrum officia, quaerat quis quisquam quod sapiente, sequi similique unde vel velit veniam voluptate! Accusamus adipisci aspernatur, esse facilis nesciunt repudiandae rerum sit sunt suscipit voluptatum? Aperiam aspernatur consequuntur ducimus hic, inventore, libero maiores molestias obcaecati quam quasi, sint unde voluptate. Distinctio, exercitationem, quibusdam. Deleniti deserunt earum eos esse, minus modi ullam! Asperiores commodi facere ut veniam vero! Delectus ipsum unde voluptate. Cupiditate eius fugiat laboriosam ut?</p>
+
+
+<!--/container-fluid-->
+</div>
+
+</body>
+</html>
