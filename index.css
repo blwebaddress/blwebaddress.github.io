@@ -37,11 +37,11 @@ body {
 
 /*---------------------- helper classes ----------------------------*/
 
-.extrapadleft {
+.extrapadleft, .extrapadleft2 {
     padding-left: 52px;
 }
 
-.extrapadright {
+.extrapadright, .extrapadright2 {
     padding-right: 52px;
 }
 
@@ -50,6 +50,142 @@ body {
 }
 
 /*-------------------------------------------------------------------*/
+
+
+/*--------------------------- Media queries --------------------------*/
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+    .extrapadright2 {
+        padding-left: 30px !important;
+        padding-right: 15px !important;
+    }
+
+    .extrapadleft2 {
+        padding-left: 15px !important;
+        padding-right: 30px !important;
+    }
+
+}
+
+@media screen and (min-width: 991px) {
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .mainheading {
+        font-size: 1165% !important;
+    }
+
+    .submainheading {
+        font-size: 278% !important;
+    }
+
+    .extrapadleft {
+        padding-left: 15px !important;
+    }
+
+    .extrapadright {
+        padding-right: 15px !important;
+    }
+
+    .carorow {
+        height: 100% !important;
+        padding-bottom: 6ex !important;
+    }
+
+    .detailspara {
+        padding-bottom: 3ex;
+    }
+
+    .extratoppad {
+        padding-top: 8ex;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .mainheading {
+        font-size: 700% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .submainheading {
+        font-size: 166% !important;
+    }
+
+    .contactheading {
+        font-size: 500% !important;
+    }
+
+    .extratoppad {
+        padding-top: 5ex !important;
+    }
+
+    .phonenumbercol {
+        padding-top: 3ex !important;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .contactformdiv {
+        width: 100% !important;
+    }
+
+    .conactemailinput {
+        width: 100% !important;
+    }
+
+    .conactemailmsginput {
+        width: 100% !important;
+    }
+
+    .conactformtest {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    .mainheading {
+        font-size: 620% !important;
+    }
+
+    .submainheading {
+        font-size: 166% !important;
+    }
+
+    .contactheading {
+        font-size: 400% !important;
+    }
+
+    .phonenumbercol {
+        font-size: 180% !important;
+    }
+}
+
+
+
+/*--------------------------------------------------------------------*/
+
+
+
+.majorcontainer {
+    max-width: 144ch;
+}
 
 .mainrow {
     color: black;
@@ -223,14 +359,14 @@ body {
 .succesful {
     background-color: #F0FFF1;
     opacity: 1;
-    width: 23%;
+    width: 11ch;
 
 }
 
 .unsuccesful {
     background-color: #FFF0F0;
     opacity: 1;
-    width: 14%;
+    width: 7ch;
 }
 
 .contactformtestcol {
@@ -259,6 +395,10 @@ body {
     text-align: center;
     padding-top: 7ex;
     padding-bottom: 7ex;
+}
+
+.detimgclass {
+    width: 100%
 }
 
 
