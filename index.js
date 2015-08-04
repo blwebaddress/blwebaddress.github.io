@@ -31,6 +31,11 @@ $(document).ready(
                                     $(".successmessage").text(data.success);
                                     $(".successmessage").removeClass("unsuccesful");
                                     $(".successmessage").addClass("succesful");
+                                    setTimeout(function(){
+                                        $(".conactemailinput").val("");
+                                        $(".conactemailmsginput").val("");
+                                        $(".successmessage").removeClass("succesful");
+                                    }, 3000);
                                 }
                             }
                         },
@@ -38,12 +43,19 @@ $(document).ready(
                             $(".successmessage").text("Error");
                             $(".successmessage").removeClass("succesful");
                             $(".successmessage").addClass("unsuccesful");
+                            setTimeout(function(){
+                                $(".successmessage").removeClass("unsuccesful");
+                            }, 1000);
                         }
                     });
                 } else {
                     $(".successmessage").text("Error");
                     $(".successmessage").removeClass("succesful");
                     $(".successmessage").addClass("unsuccesful");
+                    setTimeout(function(){
+                        $(".successmessage").removeClass("unsuccesful");
+                    }, 1000);
+
                 }
             });
     }
