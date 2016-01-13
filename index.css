@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'proxima_nova_reg';
+    src: url('proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_bold';
+    src: url('proximanova-bold-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_light';
+    src: url('proximanova-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_extrabold';
+    src: url('proximanova-extrabold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_thin';
+    src: url('proximanova-thin-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+body {
+    font-family: proxima_nova_reg, Arial, sans-serif;
+    background-color: white;
+}
+
+/*---------------------- helper classes ----------------------------*/
+
+.extrapadleft, .extrapadleft2 {
+    padding-left: 52px;
+}
+
+.extrapadright, .extrapadright2 {
+    padding-right: 52px;
+}
+
+.extratoppad {
+    padding-top: 10ex;
+}
+
+/*-------------------------------------------------------------------*/
+
+
+/*--------------------------- Media queries --------------------------*/
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+    .extrapadright2 {
+        padding-left: 30px !important;
+        padding-right: 15px !important;
+    }
+
+    .extrapadleft2 {
+        padding-left: 15px !important;
+        padding-right: 30px !important;
+    }
+
+}
+
+@media screen and (min-width: 991px) {
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .mainheading {
+        font-size: 1165% !important;
+    }
+
+    .submainheading {
+        font-size: 278% !important;
+    }
+
+    .extrapadleft {
+        padding-left: 15px !important;
+    }
+
+    .extrapadright {
+        padding-right: 15px !important;
+    }
+
+    .carorow {
+        height: 100% !important;
+        padding-bottom: 6ex !important;
+    }
+
+    .detailspara {
+        padding-bottom: 3ex;
+    }
+
+    .extratoppad {
+        padding-top: 8ex;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .mainheading {
+        font-size: 700% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .submainheading {
+        font-size: 166% !important;
+    }
+
+    .contactheading {
+        font-size: 500% !important;
+    }
+
+    .extratoppad {
+        padding-top: 5ex !important;
+    }
+
+    .phonenumbercol {
+        padding-top: 3ex !important;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .contactformdiv {
+        width: 100% !important;
+    }
+
+    .conactemailinput {
+        width: 100% !important;
+    }
+
+    .conactemailmsginput {
+        width: 100% !important;
+    }
+
+    .conactformtest {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    .mainheading {
+        font-size: 620% !important;
+    }
+
+    .submainheading {
+        font-size: 166% !important;
+    }
+
+    .contactheading {
+        font-size: 400% !important;
+    }
+
+    .phonenumbercol {
+        font-size: 180% !important;
+    }
+}
+
+
+
+/*--------------------------------------------------------------------*/
+
+
+
+.majorcontainer {
+    max-width: 144ch;
+}
+
+.mainrow {
+    color: black;
+    padding-top: 3ex;
+}
+
+.maincol {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mainheading {
+    font-family: proxima_nova_bold, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1197%;
+    display: block;
+    padding-left: 0.1ch;
+    text-align: center;
+    line-height: 1;
+    padding-top: 0.48ex;
+}
+
+
+.submainheading {
+    font-family: proxima_nova_thin, Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    bottom: 1em;
+    font-size: 284%;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+    padding-top: 0.3ex;
+    padding-bottom: 2.5ex;
+}
+
+.carorow {
+    padding-top: 2ex;
+    height: 532px;
+    /* overflow: hidden; */
+}
+
+.carocol {
+    padding-left: 0;
+    padding-right: 0;
+    height: 85%;
+    overflow: hidden;
+}
+
+.carocontrol {
+    height: 50%;
+    background-image: none !important;
+}
+
+.caroicon {
+    color: black;
+    text-shadow: none;
+}
+
+.caroimg {
+    width: 76%;
+    margin: auto;
+}
+
+.detailsheading {
+    font-family: proxima_nova_thin, Arial, sans-serif;
+    font-size: 278%;
+    padding-bottom: 0.7ex;
+    text-transform: uppercase;
+}
+
+.detailspara {
+    font-size: 130%;
+}
+
+.detailsimg {
+    height: 50ex;
+    background-size: cover;
+}
+
+.detimg1 {
+    background-image: url("https://unsplash.it/460/350/");
+}
+
+.detimg2 {
+    background-image: url("https://unsplash.it/460/350/?random");
+}
+
+.detimg3 {
+    background-image: url("https://unsplash.it/460/350/");
+}
+
+.contactrow {
+    /* background-color: whitesmoke; */
+    margin-top: 6ex;
+}
+
+.contactheading {
+    text-align: center;
+    font-size: 670%;
+    text-transform: uppercase;
+    font-family: proxima_nova_bold, Arial, sans-serif;
+    word-break: break-all;
+    line-height: 1;
+    color: black;
+    padding-bottom: 0.3ex;
+}
+
+.contactformcol {
+    text-align: center;
+}
+
+.contactformdiv {
+    display: inline-block;
+}
+
+.contactform {
+    text-align: left;
+}
+
+.conactemailinput, .conactformtest {
+    display: block;
+    height: 5ex;
+    width: 49ch;
+    padding-left: 2ex;
+    margin-bottom: 2ex;
+    border-bottom: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.conactemailmsginput {
+    display: block;
+    width: 49ch;
+    padding-left: 2ex;
+    margin-bottom: 2ex;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    outline: none !important;
+    border-color: black;
+    background-color: #FFF !important;
+}
+
+.contactbutton {
+    border-radius: 0;
+    height: 5ex;
+    border-color: black;
+    display: inline-block;
+}
+
+.contactbutton:active, .contactbutton:focus, .contactbutton:focus, .conactemailinput:focus, .conactemailmsginput:focus, .conactformtest:focus  {
+    outline: none !important;
+}
+
+.successmessage {
+    width: 73%;
+    display: inline-block;
+    text-transform: capitalize;
+    height: 5ex;
+    vertical-align: middle;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    text-align: left;
+    padding-left: 2ex;
+    opacity: 0;
+    transition: opacity 500ms;
+    margin-left: 1.8ex;
+}
+
+.succesful {
+    background-color: #F0FFF1;
+    opacity: 1;
+    width: 11ch;
+
+}
+
+.unsuccesful {
+    background-color: #FFF0F0;
+    opacity: 1;
+    width: 7ch;
+}
+
+.contactformtestcol {
+
+}
+
+.phonenumbercol {
+    text-align: center;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    font-size: 200%;
+    line-height: 1;
+}
+
+.footerrow {
+
+}
+
+.footercol {
+    height: 1px;
+    background-color: black;
+    margin-top: 8ex;
+}
+
+.copyrightcol {
+    text-align: center;
+    padding-top: 7ex;
+    padding-bottom: 7ex;
+}
+
+.detimgclass {
+    width: 100%
+}
+
+.phonenumberiframe {
+    height: 5ex;
+    width: 13ch;
+}
+
+
+
