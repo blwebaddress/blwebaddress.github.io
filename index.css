@@ -309,7 +309,7 @@ body {
 
 .conactemailinput, .conactformtest {
     display: block;
-    height: 5ex;
+    height: 3rem;
     width: 49ch;
     padding-left: 2ex;
     margin-bottom: 2ex;
