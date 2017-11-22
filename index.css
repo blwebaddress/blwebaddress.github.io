@@ -332,7 +332,7 @@ body {
 
 .contactbutton {
     border-radius: 0;
-    height: 5ex;
+    height: 3rem;
     border-color: black;
     display: inline-block;
 }
